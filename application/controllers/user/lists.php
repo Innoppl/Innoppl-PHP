@@ -1,12 +1,12 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /** 
  * 
- * @version		 0.1
+ * @version	 0.1
  * @package 	 User
  * @description  User Management
- * @Author		 Surendar M
+ * @Author	 Surendar M
  * @Organization Innoppl Inc.
- * @link 		 http://www.innoppl.com/
+ * @link 	 http://www.innoppl.com/
  */
 class Lists extends CI_Controller {
 
