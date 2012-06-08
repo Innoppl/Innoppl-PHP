@@ -1,12 +1,12 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /** 
  * 
- * @version	0.1
- * @package User
- * @description User Management
- * @Author	Surendar M
- * @Organization Innoppl Inc
- * @link http://www.innoppl.com/
+ * @version		 0.1
+ * @package 	 User
+ * @description  User Management
+ * @Author		 Surendar M
+ * @Organization Innoppl Inc.
+ * @link 		 http://www.innoppl.com/
  */
 class Dashboard extends CI_Controller {
 
