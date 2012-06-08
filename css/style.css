@@ -1,0 +1,570 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+:focus {
+    outline: 0 none;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clear {
+    clear: both;
+}
+body {
+    background-image: url("images/body_bg.png");
+    border-top: 5px solid #00446A;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+#main_container {
+    background: url("images/cotain_bg.png") repeat-y scroll center top transparent;
+    margin: 0 auto;
+    min-height: 690px;
+    padding: 0 9px 10px;
+    width: 980px;
+}
+#left_main {
+    float: left;
+    width: 227px;
+}
+.logo_main {
+    float: left;
+    padding: 10px 10px 0 22px;
+}
+.side_menu_main {
+    background: url("images/left_line_mid.png") repeat-y scroll right top transparent;
+    min-height: 500px;
+    padding: 15px 6px 0 5px;
+}
+.menu_main {
+    background: url("images/arrow.png") no-repeat scroll 170px center #0099CC;
+    border-radius: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 10px 0 20px;
+    padding: 7px 10px 7px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu_main a {
+    color: #FFFFFF;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu_main:hover {
+    background: url("images/aro.png") no-repeat scroll 170px center #89C123;
+    border-radius: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 10px 0 20px;
+    padding: 7px 10px 7px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu_active {
+    background: url("images/aro.png") no-repeat scroll 170px center #89C123;
+    border-radius: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 10px 0 20px;
+    padding: 7px 10px 7px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu_active a {
+    color: #FFFFFF;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul.sub_menu {
+    display: none;
+    padding: 5px 25px 0 35px;
+}
+ul.sub_menu li {
+    background-color: #9EC4DA;
+    margin: 5px 0;
+    padding: 5px 7px;
+    text-align: left;
+}
+ul.sub_menu li a {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#right_main {
+    float: right;
+    width: 735px;
+}
+.header_main {
+    padding: 0 10px;
+}
+.header_right_main {
+    float: right;
+    width: 500px;
+}
+.header_icon_main {
+}
+.header_icon_bg {
+    background: url("images/set_icon_bg.png") no-repeat scroll center top transparent;
+    float: right;
+    height: 48px;
+    padding: 7px 0 0 10px;
+    width: 78px;
+}
+.admin_text_main {
+    padding: 5px;
+    text-align: right;
+}
+.admin_text_main h1 {
+    color: #529CBE;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.admin_text_main p {
+    color: #848484;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 0 0 0;
+    text-decoration: none;
+}
+.body_content_main {
+    background: url("images/sethas.png") no-repeat scroll right top transparent;
+    min-height: 470px;
+}
+.breadcrumb_main {
+}
+ul.breadcrumb {
+    color: #848484;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 10px 0 0;
+    text-decoration: none;
+}
+ul.breadcrumb li {
+    float: left;
+    padding: 0 10px;
+}
+ul.breadcrumb li a {
+    color: #848484;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0;
+    text-decoration: none;
+}
+.view_main {
+    margin: 40px auto 0;
+    width: 620px;
+}
+.view_main h2 {
+    background-color: #2D7696;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.triggerpoint, .trigger{
+     background-color: #9EC4DA;
+    color: #003C58;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+}
+.table_top_left {
+    background: url("images/ta_head_left_bg.png") no-repeat scroll right top transparent;
+    width: 11px;
+}
+.table_top_right {
+    background: url("images/ta_head_right_bg.png") no-repeat scroll left top transparent;
+    width: 11px;
+}
+.table_top_mid th {
+    background: url("images/ta_bot_mid_bg.png") repeat-x scroll center top transparent;
+    color: #003C58;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 0;
+    text-align: center;
+}
+.table_bot_left {
+    background: url("images/ta_bot_left_bg.png") no-repeat scroll right bottom transparent;
+    border-top: 2px solid #FFFFFF;
+    width: 11px;
+}
+.table_bot_right {
+    background: url("images/ta_bot_right_bg.png") no-repeat scroll left bottom transparent;
+    border-top: 2px solid #FFFFFF;
+    width: 11px;
+}
+.table_bot_mid th {
+    background: url("images/ta_bot_mid_bg.png") repeat-x scroll center bottom transparent;
+    border-top: 2px solid #FFFFFF;
+    color: #003C58;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 0;
+    text-align: center;
+}
+.table_bot_mid th a {
+    color: #003C58;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.view td {
+    background-color: #9EC4DA;
+    border-top: 2px solid #FFFFFF;
+    color: #003C58;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 0;
+    text-align: center;
+}
+.view td a {
+    color: #003C58;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.report_btn {
+    background: url("images/reports_btn.png") no-repeat scroll center center transparent;
+    border: 0 none;
+    height: 42px;
+    width: 226px;
+}
+.add_hos_main {
+    width: 400px;
+}
+.add_ta {
+    background-color: #9EC4DA;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    text-align: left;
+}
+.add_ta fieldset{
+border-radius:10px;
+border:1px solid #2D7696;
+}
+.add_ta tr td {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 20px 10px 5px 55px;
+    text-align: left;
+	text-transform:uppercase;
+}
+.add_ta tr td table tr td{
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 10px 10px 37px;
+    text-align: left;
+	text-transform:uppercase;
+}
+.add_ta tr td input[type="text"] {
+    background: url("images/text_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #059BCD;
+    color: #424242;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    padding: 5px;
+    width: 270px;
+}
+.add_ta tr td input[type="file"] {
+    background: url("images/text_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #059BCD;
+    color: #424242;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    padding: 5px;
+    width: 270px;
+}
+.add_ta tr td input[type="password"] {
+    background: url("images/text_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #059BCD;
+    color: #424242;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    padding: 5px;
+    width: 270px;
+}
+.add_ta tr td .sele {
+    background: url("images/text_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #059BCD;
+    color: #BBBBBB;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    padding: 5px;
+    width: 282px;
+}
+.add_ta tr td .select_month {
+    background: url("images/text_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #059BCD;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    padding: 5px;
+    width: 175px;
+}
+.add_ta tr td .select_year {
+    background: url("images/text_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #059BCD;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    padding: 5px;
+    width: 100px;
+}
+.add_ta tr input[type="button"], .add_ta tr input[type="submit"], .add_ta tr button {
+    background: url("images/btn_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #4F5153;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    padding: 0 5px 0;
+}
+.save_btn {
+    background: url("images/save_btn.png") no-repeat scroll center center transparent;
+    border: 0 none;
+    height: 34px;
+    width: 72px;
+}
+.pass_btn {
+    background: url("images/pass_btn.png") no-repeat scroll center center transparent;
+    border: 0 none;
+    height: 34px;
+    width: 203px;
+}
+.footer_main {
+    color: #848484;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px 25px 0 0;
+    text-align: right;
+    text-decoration: none;
+}
+.footer_main p {
+    color: #848484;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    text-decoration: none;
+}
+.login {
+    background-color: #9EC4DA;
+    border-radius: 10px 10px 10px 10px;
+    margin: 50px auto;
+}
+.login tr th {
+    background-color: #11719E;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+.login tr th a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+.login tr td {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 10px 10px 20px;
+}
+.login tr td input[type="text"], .login tr td input[type="password"] {
+    background: url("images/text_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #059BCD;
+    color: #424242;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 15px;
+    padding: 5px;
+    width: 150px;
+}
+.assign {
+    background-color: #9EC4DA;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px auto;
+	width:100%;
+}
+.assign tr th {
+    background-color: #11719E;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+.assign tr th a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+.assign tr td {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 10px 10px 40px;
+}
+.assign tr td input[type="text"], .assign tr td input[type="password"] {
+    background: url("images/text_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #059BCD;
+    color: #424242;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 15px;
+    padding: 5px;
+    width: 150px;
+}
+.assign tr td select {
+    background: url("images/text_bg.png") repeat-x scroll center top #FFFFFF;
+    border: 1px solid #059BCD;
+    color: #424242;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 5px;
+    width: 163px;
+	height:200px;
+}
+.assign tr td input[type="button"], .assign tr td button {
+    background: url("images/btn_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #4F5153;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    margin: 0 0 5px;
+    padding: 0 5px 0;
+}
+input[type="button"], input[type="submit"] {
+    background: url("images/btn_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    color: #003C58;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    margin: 2px 0;
+    padding: 0 5px 0;
+}
+ .btn{
+    background: url("images/btn_bg.png") repeat-x scroll center top transparent;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    color: #003C58;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    margin: 2px 0;
+    padding:4px 8px;
+}
+
+p.pagin a{
+	
+	color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+	}
+.toggler { width: 500px; height: 200px; }
+	#button { padding: .5em 1em; text-decoration: none; }
+	#effect { width: 240px; height: 135px; padding: 0.4em; position: relative; }
+	#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+	
+.chart tr td
+{
+border-bottom: 2px solid #FFFFFF;
+}	
+	
