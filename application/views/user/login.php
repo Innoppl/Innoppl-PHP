@@ -16,7 +16,7 @@
                 <th colspan="2" align="center">
                     <header>
                     <div id="logo">
-                        <a href="<?php echo base_url(); ?>user/login">Eagle Hospitals</a>
+                        <a href="<?php echo base_url(); ?>user/login">Welcome, Guest! Please Login.</a>
                     </div>
                     </header>
                 </td>
