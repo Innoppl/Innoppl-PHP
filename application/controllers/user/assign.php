@@ -1,12 +1,11 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /** 
- * Eagle Hospitals B-End
  * 
  * @version	0.1
- * @package CodeIgniter Framework
- * @Module User_Managment
+ * @package User
+ * @description User Management
  * @Author	Surendar M
- * @Organization Innoppl Inc
+ * @Organization Innoppl Inc.
  * @link http://www.innoppl.com/
  */
 class Assign extends CI_Controller {
